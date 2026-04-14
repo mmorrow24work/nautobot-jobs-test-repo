@@ -1,5 +1,7 @@
 from nautobot.apps.jobs import Job, register_jobs
 
+name = "Jobs Collection nautobot-jobs-test-repo"
+
 class HelloJobsGit(Job):
 
     class Meta: 
