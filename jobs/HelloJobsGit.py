@@ -1,7 +1,5 @@
 from nautobot.apps.jobs import Job, register_jobs
 
-name = "Jobs Collection from https://github.com/mmorrow24work/nautobot-jobs-test-repo"
-
 class HelloJobsGit(Job):
 
     class Meta: 
