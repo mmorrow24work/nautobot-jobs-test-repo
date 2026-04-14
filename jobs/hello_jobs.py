@@ -1,6 +1,6 @@
 from nautobot.apps.jobs import Job
 
-name = "Jobs Collection from https://github.com/mmorrow24work/nautobot-jobs-test-repo"
+name = "Jobs Collection nautobot-jobs-test-repo"
 
 class HelloJobs(Job):
 
