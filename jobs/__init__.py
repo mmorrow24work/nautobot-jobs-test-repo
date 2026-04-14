@@ -1,9 +1,4 @@
 from nautobot.apps.jobs import register_jobs
-from .hello_jobs import HelloJobs
+from .hello_jobs import HelloJobs HelloJobsGit
 
-
-register_jobs(HelloJobs)
-from nautobot.apps.jobs import register_jobs
-from .hello import HelloJob
-
-register_jobs(HelloJob)
+register_jobs(HelloJobs, HelloJobsGit)
