@@ -9,8 +9,3 @@ class HelloJobsGit(Job):
 
     def run(self):
         self.logger.debug("This is from the Git repo - HelloJobsGit.py")
-
-
-register_jobs(
-    HelloJobsGit,
-)
