@@ -1,4 +1,4 @@
-from nautobot.apps.jobs import Job
+from nautobot.apps.jobs import Job, register_jobs
 
 class HelloJobsGit(Job):
 
@@ -7,3 +7,8 @@ class HelloJobsGit(Job):
 
     def run(self):
         self.logger.debug("This is from the Git repo.")
+
+
+register_jobs(
+    HelloJobsGit,
+)
