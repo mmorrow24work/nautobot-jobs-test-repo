@@ -1,5 +1,7 @@
 from nautobot.apps.jobs import Job, register_jobs, FileVar
 
+name = "Jobs Collection nautobot-jobs-test-repo"
+
 class FileUpload(Job):
     class Meta:
         name = "CSV File Upload"
