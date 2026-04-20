@@ -7,6 +7,7 @@ from nautobot.extras.jobs import Job, FileVar
 from nautobot.dcim.models import Device, DeviceType, Location
 from nautobot.extras.models import Status, Role
 
+name = "Jobs Collection nautobot-jobs-test-repo"
 
 class FileUpload_3(Job):
     class Meta:
